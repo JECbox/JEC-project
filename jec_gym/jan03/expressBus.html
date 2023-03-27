@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div align="center">
+<header>
+	<h2>고속버스 예매 시스템</h2>
+</header>
+<section>
+	<h3>목적지와 인원수를 선택하고 예매 버튼을 누르면, 총액이 출력됩니다.</h3>
+	<form action="expressBus.jsp">
+	목적지 : 대전<input type="radio" name="TARGET" value="1">,
+	강릉 <input type="radio" name="TARGET" value="2"/>,
+	광주 <input type="radio" name="TARGET" value="3">,
+	대구<input type="radio" name="TARGET" value="4">,
+	부산<input type="radio" name="TARGET" value="5"><br>
+	좌석 종류 : 일반<input type="radio" name="SEAT" value="0"/>,
+	우등<input type="radio" name="SEAT" value="1"><br><br>
+	인원수 : <input type="number" name="NUM" min="1"><br><br>
+	<input type="submit" value="예매하기"/>
+	<input type="reset" value="취 소"/>
+	</form>
+	
+</section>
+</div>
+
+</body>
+</html>
